@@ -1,0 +1,7 @@
+[package]
+name = "sealedcash_privacy"
+type = "bin"
+authors = ["SealedCash"]
+compiler_version = ">=0.36.0"
+
+[dependencies]

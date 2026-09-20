@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: mailto:support@sealedcash.com
+    about: Report suspected vulnerabilities privately. Do not open a public issue.
+  - name: SealedCash organization
+    url: https://github.com/sealedcash-org
+    about: View official SealedCash repositories.

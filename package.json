@@ -1,0 +1,37 @@
+{
+  "name": "@sealedcash/circuits",
+  "version": "0.1.0",
+  "description": "SealedCash Noir privacy circuit and UltraHonk tooling",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/sealedcash-org/sealedcash-circuits#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sealedcash-org/sealedcash-circuits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sealedcash-org/sealedcash-circuits/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "build": "node scripts/compile.mjs",
+    "prove": "node scripts/prove.mjs",
+    "verify": "node scripts/verify.mjs",
+    "hash": "node scripts/hash-artifacts.mjs",
+    "release:package": "node scripts/package-release.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@aztec/bb.js": "5.0.0",
+    "@noir-lang/noir_js": "1.0.0-rc.3",
+    "@noir-lang/noir_wasm": "1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.3"
+  }
+}
