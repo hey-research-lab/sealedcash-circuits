@@ -5,3 +5,5 @@ Please do not disclose vulnerabilities in public issues. Email `support@sealedca
 Do not include private keys, credentials, user notes, or production infrastructure details in a report. We will acknowledge a report when practical and coordinate a fix and disclosure timeline with the reporter.
 
 Circuit artifacts are security-sensitive release inputs. A checksum confirms integrity only; it is not an audit, a deployment approval, or a guarantee that a proof is safe for production.
+
+You can also report privately through GitHub: **Report a vulnerability** on this repository's **Security** tab, once private vulnerability reporting is enabled under Settings → Code security.
